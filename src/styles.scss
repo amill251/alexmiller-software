@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    //Primary Palette
+    --accent-purple: #5433FF;
+    --accent-blue-1: #20BDFF;
+    --accent-blue-2: #39DBFF;
+    --primary-dark: #333333;
+    --secondary-dark: #000000;
+    --primary-light: #F8F8F8;
+    --secondary-light: #FFFFFF;
+
+    //Transparent Variations
+    --accent-purple-t: #5433FF00;
+    --accent-blue-1-t: #20BDFF00;
+    --accent-blue-2-t: #39DBFF00;
+    --primary-dark-t: #33333300;
+    --secondary-dark-t: #00000000;
+    --primary-light-t: #F8F8F800;
+    --secondary-light-t: #FFFFFF00;
+    }
+
+body {
+    font-family: 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
+}
+
+//Background Colors
+.bg-acc-p {
+    background-color: var(--accent-purple);
+}
+
+.bg-acc-b1 {
+    background-color: var(--accent-blue-1);
+}
+
+.bg-acc-b2 {
+    background-color: var(--accent-blue-2);
+}
+
+.bg-dark-primary {
+    background-color: var(--primary-dark);
+}
+
+.bg-dark-secondary {
+    background-color: var(--secondary-dark);
+}
+
+.bg-light-primary {
+    background-color: var(--primary-light);
+}
+
+.bg-light-secondary {
+    background-color: var(--secondary-light);
+}
+
+//Text Colors
+.text-acc-p {
+    color: var(--accent-purple);
+}
+
+.text-acc-b1 {
+    color: var(--accent-blue-1);
+}
+
+.text-acc-b2 {
+    color: var(--accent-blue-2);
+}
+
+.text-dark-primary {
+    color: var(--primary-dark);
+}
+
+.text-dark-secondary {
+    color: var(--secondary-dark);
+}
+
+.text-light-primary {
+    color: var(--primary-light);
+}
+
+.text-light-secondary {
+    color: var(--secondary-light);
+}
