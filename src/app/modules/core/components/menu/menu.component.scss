@@ -1,0 +1,15 @@
+
+.menu {
+    background: linear-gradient(217deg, var(--accent-purple), var(--accent-purple-t) 70.71%),
+    linear-gradient(127deg, var(--accent-blue-1), var(--accent-blue-1-t) 70.71%),
+    linear-gradient(336deg, var(--accent-blue-2), var(--accent-blue-2-t) 70.71%);
+
+    box-shadow: 0px 2px 8px -4px #000;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: .75rem;
+    padding: 0;
+}
