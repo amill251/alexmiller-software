@@ -4,11 +4,12 @@ phases:
   pre_build:
     commands:
       - npm install
+      - aws s3 rm --recursive $ARTIFACTS_BUCKET
   build:
     commands:
       - npm run build
 artifacts:
   files:
     - '**/*'
-  discard-paths: yes
+  discard-paths: no
   base-directory: 'dist*'
