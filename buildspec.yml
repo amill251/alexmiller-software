@@ -6,7 +6,7 @@ phases:
       - npm install
   build:
     commands:
-      - aws s3 rm --recursive $ARTIFACTS_BUCKET
+      - aws s3 rm --recursive "arn:aws:s3:::alexmiller-software.com"
       - npm run build
 artifacts:
   files:
