@@ -4,9 +4,9 @@ phases:
   pre_build:
     commands:
       - npm install
+      - aws s3 rm --recursive $ARTIFACTS_BUCKET
   build:
     commands:
-      - aws s3 rm --recursive "s3://alexmiller-software.com/"
       - npm run build
 artifacts:
   files:
