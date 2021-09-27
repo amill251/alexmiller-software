@@ -6,7 +6,7 @@ phases:
       - npm install
   build:
     commands:
-      - aws s3 rm --recursive "s3://${ARTIFACTS_BUCKET}/" 
+      - aws s3 rm --recursive $ARTIFACTS_BUCKET
       - npm run build
 artifacts:
   files:
